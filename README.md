@@ -94,3 +94,7 @@ input {
 | `fs`  | `font-size`       |
 | `fw`  | `font-weight`     |
 | `td`  | `text-decoration` |
+
+### Todo
+
+[ ] - Add tests
