@@ -5,7 +5,7 @@ A collection of shorthand mixins for [stylus-lang](https://stylus-lang.com/)
 ## Usage
 
 ```sh
-yarn add stylus-mixins
+yarn add -D stylus-mixins
 ```
 
 ```css
