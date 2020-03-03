@@ -1,0 +1,20 @@
+{
+  "name": "stlyus-mixins",
+  "version": "1.0.0",
+  "description": "A library of mixins for stylus-lang",
+  "keywords": [
+    "Mixins",
+    "stylus",
+    "stylus-lang"
+  ],
+  "homepage": "https://github.com/brettm12345/stylus-mixins",
+  "bugs": "https://github.com/brettm12345/stylus-mixins/issues",
+  "repository": "brettm12345/stylus-mixins",
+  "license": "MIT",
+  "author": "Brett Mandler <brettmandler@gmail.com>",
+  "main": "./index.js",
+  "devDependencies": {
+    "sort-package-json": "^1.40.0",
+    "stylus": "^0.54.5"
+  }
+}

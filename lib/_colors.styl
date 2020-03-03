@@ -1,0 +1,17 @@
+i = !important
+
+/**
+* c <foreground> <border-color> <background> <foreground-important> <border-important> <background-important>
+* use 0 to omit arguments
+*/
+c(x, y = 0, z = 0, xi = 0, yi = 0, zi = 0)
+  if x is a 'call' or x is a 'rgba'
+    color: xi is 0 ? x : x i
+  if y is a 'call' or y is a 'rgba'
+    border-color: yi is 0 ? y : y i
+  if z is a 'call' or z is a 'rgba'
+    background-color: zi is 0 ? z : z i
+bg()
+  background arguments
+fg()
+  color arguments
