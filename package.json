@@ -1,6 +1,6 @@
 {
   "name": "stlyus-mixins",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A library of mixins for stylus-lang",
   "keywords": [
     "Mixins",
@@ -13,8 +13,16 @@
   "license": "MIT",
   "author": "Brett Mandler <brettmandler@gmail.com>",
   "main": "./index.js",
+  "husky": {
+    "pre-commit": "sort-package-json && yarn format"
+  },
+  "scripts": {
+    "format": "stylus-supremacy format lib/*.styl --options .vscode/settings.json"
+  },
   "devDependencies": {
+    "husky": "^4.2.3",
     "sort-package-json": "^1.40.0",
-    "stylus": "^0.54.5"
+    "stylus": "^0.54.5",
+    "stylus-supremacy": "^2.14.0"
   }
 }
