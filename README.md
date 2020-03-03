@@ -8,8 +8,8 @@ A collection of shorthand mixins for [stylus-lang](https://stylus-lang.com/)
 yarn add stylus-mixins
 ```
 
-```stylus
-@import "stylus-mixins"
+```css
+@import "stylus-mixins";
 ```
 
 ## Mixins
@@ -32,8 +32,13 @@ yarn add stylus-mixins
 
 The `c` mixin works like this
 
-```stylus
-input { c: white gray black 1 0 1; }
+```css
+// c <color> <border-color> <background-color> <color-important> <border-color-important> <background-color-important>
+```
+
+```scss
+input
+  c white gray black 1 0 1
 ```
 
 would expand to
